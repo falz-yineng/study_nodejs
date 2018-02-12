@@ -11,8 +11,8 @@ fs.readdir(dir, function callback(err, list) {
     throw err;
   }
   for (let v of list) {
-  	if (v.match(pattern)) {
-  	  console.log(v);
-  	}
+    if (v.match(pattern)) {
+      console.log(v);
+    }
   }
 })
